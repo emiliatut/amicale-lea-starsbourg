@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/Style/style.css">
+    <link rel="stylesheet" href="/Style/layout.css">
+    <link rel="stylesheet" href="/Style/main-page-fade-animation.css">
+    <link rel="stylesheet" href="/Style/hamburger-menu.css">
+
+    <script defer src="/Script/main-page-fade-script.js"></script>
+
+    <style>
+
+        .title-centre > .inner-flex-main-page {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+       @media only screen and (max-width: 500px) {
+            .title-centre > .inner-flex-main-page {
+            display: flex;
+            flex-wrap: wrap;
+            width: min-content;
+            }
+        }
+    </style>
+
+    <title>Amicale LEA Strasbourg</title>
+</head>
+
+<body>
+
+    <div class="menu-media-q">
+        <section class="p-menu">
+            <nav id="navbar" class="navigation" role="navigation">
+
+                <input id="toggle1" type="checkbox" />
+
+                <label class="hamburger1" for="toggle1">
+                    <div class="top"></div>
+                    <div class="meat"></div>
+                    <div class="bottom"></div>
+                </label>
+
+                <nav class="menu1">
+                    <a class="link1" href="/HTML/Contacts.html">Contacte</a>
+                    <a class="link1" href="/HTML/Ton-equipe.html">Ton équipe</a>
+                    <a class="link1" href="/HTML/Nouveautes.html">Nouveautés</a>
+                    <a class="link1" href="/HTML/Devenir-membre.html">Devenir membre</a>
+                    <a class="link1" href="/HTML/Galerie.html">Galerie</a>
+                </nav>
+            </nav>
+        </section>
+    </div>
+
+    <div class="title-grid-container">
+
+        <img class="grid logo" src="/Images/LOGO AMICALE LEA CROP.png" alt="">
+
+        <div class="mini-grid grid-col-span-2 title-centre">
+
+            <div class="inner-flex-main-page">
+                <h1 class="grid">Amicale LEA Strasbourg</h1>
+
+                 <p class="grid media-q">L'association pour les étudiants en Langues Étrangères Appliquées à Strasbourg</p>
+            </div>
+            
+            <div class="flex-container">
+                
+                <button class="menu-buttons"> <a href="/HTML/Contacts.html">Contacte</a> </button>
+                <button class="menu-buttons" > <a href="/HTML/Ton-equipe.html">Ton équipe</a> </button>
+                <button class="menu-buttons" > <a href="/HTML/Nouveautes.html">Nouveautés</a> </button>
+                <button class="menu-buttons" > <a href="/HTML/Devenir-membre.html">Devenir membre</a> </button>
+                <button class="menu-buttons" > <a href="/HTML/Galerie.html">Galerie</a> </button>
+    
+            </div>    
+
+        </div>
+
+    </div>
+
+    <div class="main-grid-container">
+        
+        <!-- DIV AIDE -->
+        
+        <div class="grid mini-grid grid-col-span-2 hidden-js text-media-q">
+
+            <h3>Une association, tous vos besoins</h3>
+            <p>L'Amicale LEA s'engage auprès les étudiants LEA en fournissant toute information nécessaire à la bonne intégration dans le collectif et au bon déroulement des études.</p>    
+        </div>
+        <img class="grid-image hidden-js" src="/Images/pexels-photo-1181472.jpeg" alt="">
+
+
+        <!-- DIV VIE UNIVERSITAIRE -->
+        <img class="grid-image hidden-js" src="/Images/Screenshot 2023-08-31 at 21.46.00.png" alt="">
+        <div class="grid mini-grid grid-col-span-2 hidden-js text-media-q">
+
+            <h3>Vie universitaire et événements</h3>
+            <p>L'université n'est pas que les études ! Se déteindre est également important. C'est pour cela que nous organisons régulièrement des événements où les étudiants peuvent se divertir.</p>
+            <button><a href="/HTML/Galerie.html"><u>Galerie</u></a></button>
+    
+        </div>
+
+        <!-- DIV ELECTIONS -->
+        <div class="grid mini-grid grid-col-span-2 hidden-js text-media-q">
+            
+            <h3>Devenir membre</h3>
+            <p>Chaque année, l'Amicale LEA fait des élections pour trouver des nouveaux membres prêts à se rendre actif.v.e.s dans la vie du campus et de soutenir leurs camarades.</p>
+            <button><a href="/HTML/Devenir-membre.html"><u>Plus de détails</u></a></button>
+
+        </div>
+        <img class="grid-image hidden-js" src="/Images/pexels-kampus-production-5940841.jpg" alt="">    
+
+
+    </div>
+    
+</body>
+
+</html>

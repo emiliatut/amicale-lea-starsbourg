@@ -1,0 +1,10 @@
+.main-grid-container > .hidden-js {
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.main-grid-container > .show {
+    opacity: 1;
+    transform: translateX(0);
+}

@@ -1,0 +1,98 @@
+body {
+    margin-top: 0px;
+    margin-bottom: 10%;
+    background-color: rgb(250, 249, 246);
+    line-height: 1.5;
+}
+
+.menu-media-q {
+    display: none;
+}
+
+@media only screen and (max-width) {
+    .menu-media-q {
+        display: block;
+    }
+}
+
+h3, h4, p, img, a, button {
+    animation-name: fade;
+    animation-duration: 1.5;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(112, 110, 110);
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    p {
+        font-size: 1.125rem;
+    }
+
+    h2 {
+        margin-top: 0;
+        font-size: 3rem;
+        margin-bottom: 30px;
+    }
+}
+
+.flex-container-simple > .bigger-icon {
+    height: 28px;
+}
+
+.flex-container-simple > .smaller-icon {
+    height: 23px;
+}
+
+.flex-container-simple {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(112, 110, 110);
+}
+
+.flex-container {
+   display: flex;
+   justify-content: space-evenly;
+   border-bottom: 1px solid lightgrey;
+   padding: 20px 0px;
+}
+
+.flex-container > button {
+    border: none;
+    background-color: transparent;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: rgb(112, 110, 110);
+    letter-spacing: -1px;
+}
+
+@media only screen and (max-width: 500px) {
+    .flex-container {
+        display: none;
+    }
+}
+
+
+.flex-container > button > a:hover {
+    color: #2596be;
+}

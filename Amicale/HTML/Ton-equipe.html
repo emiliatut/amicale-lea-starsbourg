@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/Style/style-general.css">
+    <link rel="stylesheet" href="/Style/fade-in-animation.css">
+    <link rel="stylesheet" href="/Style/hamburger-menu.css">
+
+    <style>
+        img {
+            border: solid 3px rgb(77, 76, 76);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 45%;
+        }
+
+        p {
+            font-size: 30px;
+        }
+
+        @media only screen and (max-width: 500px) {
+            img {
+                border: solid 3px rgb(77, 76, 76);
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 90%;
+
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            .break-erase-mq {
+                display: none;
+            }
+
+            .smaller-text-mq > p {
+                font-size: 17px;
+            }
+        }
+
+        span {
+            font-weight: normal;
+        }
+    </style>
+
+    <title>Ton équipe</title>
+</head>
+
+<body>
+
+    <div class="menu-media-q">
+        <section class="p-menu">
+            <nav id="navbar" class="navigation" role="navigation">
+
+                <input id="toggle1" type="checkbox" />
+
+                <label class="hamburger1" for="toggle1">
+                    <div class="top"></div>
+                    <div class="meat"></div>
+                    <div class="bottom"></div>
+                </label>
+
+                <nav class="menu1">
+                    <a class="link1" href="/Main-Page.html">Accueil</a>
+                    <a class="link1" href="/HTML/Contacts.html">Contacte</a>
+                    <a class="link1" href="/HTML/Nouveautes.html">Nouveautés</a>
+                    <a class="link1" href="/HTML/Devenir-membre.html">Devenir membre</a>
+                    <a class="link1" href="/HTML/Galerie.html">Galerie</a>
+                </nav>
+            </nav>
+        </section>
+    </div>
+
+
+    <div class="flex-container">
+        
+        <button> <a href="/Main-Page.html">Accueil</a> </button>
+        <button> <a href="/HTML/Contacts.html">Contacte</a> </button>
+        <button> <a href="/HTML/Nouveautes.html">Nouveautés</a> </button>
+        <button> <a href="/HTML/Devenir-membre.html">Devenir membre</a> </button>
+        <button> <a href="/HTML/Galerie.html">Galerie</a> </button>
+
+    </div>    
+
+    <h2>Ton équipe</h2>
+
+    <div class="fade-in">
+
+        <img src="/Images/Amicale-2022-2023.jpg" alt="">
+
+        <br class="break-erase-mq">
+        <br>
+    
+        <p>L'Amicale LEA 2022 - 2023</p> 
+        
+        <br><br><br class="break-erase-mq">
+
+        <div class="smaller-text-mq">
+            <p><span>Léa</span> - Présidente</p>
+            <p><span>Philia</span> - Vice-présidente</p>
+            <p><span>Ninon</span> - Trésorière</p>
+            <p><span>Farah</span> - Assistente trésorière</p>
+            <p><span>Daniela</span> - Sécretaire</p>
+            <p><span>Robin </span> - Chargé des réseaux sociaux</p>
+            <p><span>Perrine</span> - Graphiste</p>
+            <p><span>Corentin</span> - Graphiste</p>
+            <p><span>Vlada</span> - Chargé des rélations internationaux</p>
+            <p><span>María</span> - Médiatrice</p>
+            <p><span>Zeynep</span> - Suppléante</p>
+            <p><span>Emilia</span> - Suppléante</p>    
+        </div>
+
+    </div>
+    
+</body>
+</html>
